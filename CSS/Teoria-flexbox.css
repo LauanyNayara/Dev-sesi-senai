@@ -1,0 +1,73 @@
+/* FLEX 1 - ROW EM LINHA */
+.flex-1 {
+    background-color: lightgray;
+    /* Alterando o display da div para tipo flex para ficar
+     mais fácil estilizar as posições dos elementos filhos 
+     - por meio padrão o alimento é em linha ROW */
+    display: flex;
+}
+/* FLEX-2 COLUMN EM COLUNA */
+.flex-coluna{
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    /* o flex direction altera a disposição dos elementos para
+     o tipo coluna colocando um embaixo do outro */
+    flex-direction: column;
+}
+/* FLEX-3 - WRAP quebra de linha quando não cabe na tela */
+.wrap{
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    width: 200px;
+    margin: 5px;
+}
+.centralizar-x{
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    /* centralizar horizontalmente */
+    justify-content: center;
+}
+.space-around{
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    /* centralizar horizontalmente */
+    justify-content: space-around;
+}
+.space-between{
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    /* centralizar horizontalmente */
+    justify-content: space-between;
+}
+.flex-end{
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    /* centralizar horizontalmente */
+    justify-content: flex-end;
+}
+
+.centralizar-y{
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    height: 400px;
+    /* centralizar verticalmente */
+    justify-content: center;
+    align-items: center;
+}

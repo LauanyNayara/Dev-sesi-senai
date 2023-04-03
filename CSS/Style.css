@@ -1,0 +1,273 @@
+body {
+    background-color: aqua;
+    /* Alterando cor de fundo do body */
+}
+
+h1 {
+    text-align: center;
+    /* centralizando o título*/
+}
+
+P {
+    color: blue;
+    /*mudando a cor do texto */
+}
+
+img {
+    width: 200px;
+    /* Alterando a largura da imagem*/
+    height: 100px;
+    /* Alterando a Altura da imagem*/
+}
+
+h2 {
+    font-size: 20px;
+    /* Alterando o tamanho da letra*/
+    background-color: blueviolet;
+    /* alterando a cor de fundo da linha h2*/
+}
+
+h3 {
+    color: brown;
+    /* cor da letra*/
+    background-color: rgb(90, 166, 141);
+    /* cor do fundo */
+    text-align: right;
+    /* texto com alinhamento a direita*/
+    font-size: 18px;
+    /* tamanho do texto */
+    box-shadow: 2px 2px 0px gray;
+}
+
+
+/* seletor de class,pode ter vários,começa com . */
+.p-vermelho {
+    color: red;
+    transition: 500ms;
+}
+
+/* mudando a cor com class*/
+
+.p-vermelho:hover {
+    /* fazendo transaçao de cor e da letra */
+    color: white;
+    background-color: red;
+}
+
+/* seletor de class,pode ter vários,começa com . */
+.p-amarelo {
+    color: yellow
+}
+
+/* mudando a cor com class*/
+
+/* seletor de id ÚNICO começa com # */
+#p-verde {
+    color: green;
+}
+
+/* mudando a cor com id*/
+
+.font-courier-new {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* 1° forma de colocar fonte */
+
+.sombreado {
+    /* Text-shadow colocando sombreado no texto
+    eixo x, eixo y, esfumaçado, cor */
+    text-shadow: 1px 1px 2px rgb(221, 86, 86);
+}
+
+.sombreado2 {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color: white;
+}
+
+.fonte-padrão {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fonte-google {
+    /* Colocar o nome da fonte que o Google pede no site fonts.google.com */
+    font-family: 'Climate Crisis', cursive;
+}
+
+.fonte-local {
+    /* Colocando o nome da fonte que nós colocamos no @font-face */
+    font-family: 'Fonte velho oeste';
+}
+
+/* Declarando a fonte baixada, o nome e o caminho da fonte 
+        o .. volta uma pasta para buscar o arquivo*/
+@font-face {
+    font-family: 'Fonte Velho Oeste';
+    src: url(../velhooeste.ttf);
+}
+
+.opacidade {
+    background-color: green;
+    opacity: 0.3;
+}
+
+/* nivel de opacidade de todos os elementos*/
+.opacidade-rgba {
+    background-color: rgb(0, 128, 0, 0.3);
+}
+
+/* opacidade do fundo*/
+.fundo-imagem {
+    height: 500px;
+    background-image: url(../IMG/jeff\ e\ suuh.jfif);
+    /* esta propriedade'estica' a imagem para todo o espaço*/
+    /* background-size: cover*/
+}
+
+.fundo-imagem-dinamica {
+    height: 1000px;
+    background: url(http://source.unsplash.com/1920x2400?hdr,ocean);
+}
+
+.borda {
+    text-align: left;
+    /* aplicando uma borda largura tipo da borda e cor*/
+    border: 2px solid red;
+    /* aplicando um arredondamento no elemento*/
+    border-radius: 10px;
+}
+
+.borda1 {
+    border: 1px solid black;
+}
+
+/*usado para fazer u ma borda simples */
+.borda2 {
+    border-bottom: 2px solid red;
+}
+
+/*usado para fazer uma borda em baixo*/
+.borda3 {
+    border: 1px solid green;
+    /*usado para fazer uma borda com os cantos arredondados*/
+    border-radius: 5px;
+}
+
+.borda4 {
+    border-left: 4px solid blue;
+    /* colocar uma borda colorida no canto esquerdo(pode colocar em qualquer lado)*/
+    background-color: cyan;
+}
+
+.borda5 {
+    border-top: 1px dotted
+}
+
+/*essa borda acrescenta um pontilhado em cima mais pode ficar em qualquer lado*/
+.borda6 {
+    border-top: 5px solid yellow;
+    /*acrescenta uma linha  em cima*/
+    border-bottom: 5px dashed red;
+    /*acrescenta um tracejado */
+    border-left: 5px double green;
+    /*acrescenta uma linha dupla*/
+    border-right: 5px dotted blue;
+}
+
+/*acrescenta uma linha pontilhada*/
+.bordaarredondada {
+    border-radius: 10px;
+}
+
+/*arredonda a borda*/
+.bordaredonda {
+    height: 200px;
+    /*arredonda a borda (um circulo)*/
+    width: 200px;
+    border-radius: 100px;
+}
+
+.bordaredondacolorida {
+    height: 200px;
+    /*arredonda como um circulo e deixa a borda colorida*/
+    width: 200px;
+    border-radius: 100px;
+    background: linear-gradient(white, white) padding-box,
+        linear-gradient(to right, rgb(200, 0, 255), rgb(0, 187, 255), rgb(214, 6, 176)) border-box;
+    border: 5px solid transparent
+}
+
+.bordaredondaquadrada {
+    border-top-left-radius: 40px;
+    /*arredonda 2 cantos opostos da borda*/
+    border-bottom-right-radius: 40px;
+}
+
+.div1 {
+    border: 1px solid black;
+    background-color: lightcyan;
+}
+
+.div2 {
+    border: 1px solid black;
+    background-color: rgb(176, 111, 176);
+    text-align: right;
+}
+
+.div-margin {
+    background-color: rgb(166, 129, 215);
+    margin: 20px 5px;
+}
+
+/*se colocar 2 informações a primeira é cima/baixo e a segunda direita e
+             esquerda, se colocar 4 informações é o reloginho,e tambme tem como colocar individual*/
+.div-centralizada {
+    background-color: rgb(139, 78, 195);
+    width: 150px;
+    /*definindo uma largura*/
+    margin: 0 auto
+        /*centralizando um elemento de bloco*/
+    ;
+}
+
+.div-padding {
+    background-color: rgb(7, 85, 85);
+    padding: 20px;
+    /*define o espaçamento interno do elemento*/
+}
+
+.div-completa {
+    border: 3px solid black;
+    margin: 10px auto;
+    padding: 7px 9px 11px 13px;
+    background-color: rgb(59, 59, 139);
+}
+
+
+.Botão {
+    background-color: blueviolet;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px black;
+    border: 2px solid magenta;
+}
+
+.Botão:hover {
+    background-color: rgb(29, 79, 79);
+}
+
+
+
+
+.principal {
+    height: 200px;
+    width: 200px;
+    background-color: antiquewhite;
+}
+
+P {
+    text-align: center;
+}

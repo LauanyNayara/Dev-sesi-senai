@@ -1,0 +1,23 @@
+.borda1{border: 1px solid black;}
+.borda2{border-bottom: 2px solid red;}
+.borda3{border: 1px solid green;
+        border-radius: 5px;}
+.borda4{border-left: 4px solid blue;
+       background-color:cyan ;}
+.borda5{border-top: 1px dotted }
+.borda6{border-top: 5px solid yellow;
+        border-bottom: 5px dashed red;
+        border-left: 5px double green;
+        border-right: 5px dotted blue;}
+.bordaarredondada{border-radius: 10px;}
+.bordaredonda{ height: 200px;
+                width: 200px;
+                border-radius: 100px;}
+.bordaredondacolorida{height: 200px;
+                      width: 200px;
+                      border-radius: 100px;
+                     background: linear-gradient(white, white) padding-box,
+                     linear-gradient(to right, rgb(200, 0, 255), rgb(0, 187, 255) ,rgb(214, 6, 176)) border-box;
+                     border: 5px solid transparent}
+.bordaredondaquadrada{border-top-left-radius:40px;
+                      border-bottom-right-radius: 40px;}

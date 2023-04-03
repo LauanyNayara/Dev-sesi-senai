@@ -1,0 +1,184 @@
+body {
+    background-color: black;
+}
+
+.botão1 {
+    background-color: rgb(27, 5, 82);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(171, 153, 221);
+    text-shadow: 2px 2px 5px rgb(34, 13, 137);
+    border: 2px solid rgb(16, 59, 175);
+}
+.botão1:hover{background-color: aqua;}
+
+.botão2 {
+    background-color: rgb(21, 101, 5);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px black;
+    border: 2px solid rgb(39, 239, 13);
+}
+.botão2:hover{background-color: aqua;}
+.botão3 {
+    background-color: rgb(234, 19, 19);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px black;
+    border: 2px solid rgb(242, 161, 161);
+}
+.botão3:hover{background-color: aqua;}
+.botão4 {
+    background-color: rgb(208, 167, 4);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px black;
+    border: 2px solid rgb(245, 199, 108);
+}
+.botão4:hover{background-color: aqua;}
+.botão5 {
+    background: linear-gradient(red,rgb(150, 43, 87),blue);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px black;
+    border: 2px solid rgb(241, 6, 241);
+
+}
+.botão5:hover{background: rgb(10, 194, 194);}
+.botão6 {
+    background: linear-gradient(to right,rgb(0, 200, 255),rgb(0, 68, 255),rgb(122, 1, 193),rgb(211, 5, 208));
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px black;
+    border: 2px solid rgb(0, 0, 0);
+}
+.botão6:hover{background: rgb(76, 5, 152);}
+.botão7 {
+    background: linear-gradient(to bottom right ,rgb(140, 206, 140),rgb(91, 204, 91),green);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.botão7:hover{background: rgb(9, 198, 198);}
+
+.botão8 {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(220, 9, 181);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px black;
+    border: 2px solid rgb(220, 9, 181);
+}
+.botão8:hover{background-color: rgb(175, 6, 130);}
+.botão9 {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(239, 12, 122);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px black;
+    border: 2px solid rgb(239, 12, 122);
+}
+.botão9:hover{background-color: rgb(152, 6, 108);}
+.botão10 {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(196, 69, 10);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px black;
+    border: 2px solid rgb(196, 69, 10);
+}
+.botão10:hover{background-color: rgb(158, 229, 229);}
+.botão11 {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(205, 186, 16);
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgb(205, 186, 16);
+    text-shadow: 2px 2px 5px black;
+    border: 2px solid rgb(205, 186, 16);
+    
+}
+.botão11:hover{background-color: rgb(102, 4, 171);}
+.botão12 {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(117, 219, 156);
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgb(117, 219, 156);
+    text-shadow: 2px 2px 5px black;
+    border: 2px solid rgb(117, 219, 156);
+    
+}
+.botão12:hover{background-color: aqua;}
+
+.botão13{
+    background:linear-gradient(to right,rgb(0, 200, 255),rgb(180, 22, 67),rgb(122, 1, 193),rgb(211, 5, 208));
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(171, 153, 221);
+    text-shadow: 2px 2px 5px rgb(34, 13, 137);
+    border: 2px solid rgb(16, 175, 95);
+}
+.botão13:hover{background: rgb(13, 212, 13);}
+.botão14{
+    background:  linear-gradient(to bottom right,rgb(155, 23, 80),rgb(10, 182, 171),gray);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(171, 153, 221);
+    text-shadow: 2px 2px 5px rgb(34, 13, 137);
+    border: 2px solid rgb(138, 150, 186);
+}
+.botão14:hover{background: rgb(202, 167, 24);}
+.botão15{
+    background: linear-gradient(to right,rgb(27, 227, 130),rgb(0, 68, 255),rgb(122, 1, 193),rgb(211, 5, 208));
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(140, 110, 220);
+    text-shadow: 2px 2px 5px rgb(137, 13, 114);
+    border-bottom: 2px solid rgb(50, 98, 229);
+}
+.botão15:hover{background: rgb(2, 111, 111);}
+.botão16{
+    background-color: rgb(12, 246, 226);
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(45, 36, 2);
+    text-shadow: 2px 2px 5px rgb(34, 13, 137);
+    border-radius: 2px solid rgb(16, 59, 175);
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgb(5, 145, 108);
+}
+.botão16:hover{background-color: rgb(204, 0, 255);}

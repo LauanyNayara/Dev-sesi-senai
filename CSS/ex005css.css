@@ -1,0 +1,64 @@
+body{background-color: rgb(163, 230, 207);}
+.titulo{text-align: center;
+    text-shadow: 
+    0 1px 0px #f6fcf8, 1px 0 0px
+     #edf4f0, 1px 2px 1px
+      #edf4ee, 2px 1px 1px 
+      #eaebea, 2px 3px 2px
+       #dce0de, 3px 2px 2px 
+       #eef4ee, 3px 4px 2px
+        #eaeeeb, 4px 3px 3px;
+    background-color: rgb(30, 114, 86);
+    color:rgb(30, 114, 86) ;
+    text-shadow:black}
+.esquerda{color: rgb(154, 7, 7);
+   }
+.direita{text-align: right;
+    color: rgb(10,124,75);}
+.centralizado{text-align: center;
+    
+    text-shadow:#FFF 0px 0px 5px,
+     #FFF 0px 0px 10px,
+     #FFF 0px 0px 15px,
+     #05010f 0px 0px 20px,
+     #612dff 0px 0px 30px, 
+     #452dff 0px 0px 40px,
+     #5a2dff 0px 0px 50px, 
+     #342dff 0px 0px 75px; 
+     color:antiquewhite }
+    
+.centro{text-align: center;
+    color: rgb(113, 113, 3);
+}
+.lado2{text-align: right;
+    text-shadow: 
+    0 1px 0px #37b45d, 1px 0 0px
+     #5dcd88, 1px 2px 1px
+      #10621a, 2px 1px 1px 
+      #2d7941, 2px 3px 2px
+       #37b478, 3px 2px 2px 
+       #6acd5d, 3px 4px 2px
+        #37b469, 4px 3px 3px;
+        
+    color: rgb(163, 230, 207);}
+.centro2{text-align: center;
+    text-shadow:  1px 0px #4f6813, 1px 0 0px
+    #627010, 1px 2px 1px
+     #506210, 2px 1px 1px 
+     #69792d, 2px 3px 2px
+      #9bb437, 3px 2px 2px 
+      #bccd5d, 3px 4px 2px
+       #b4aa37, 4px 3px 3px;
+       color: rgb(163, 230, 207);}
+.lado1{color: rgb(154, 7, 7);
+    text-shadow:  1px 0px #4f6813, 1px 0 0px
+    #701d10, 1px 2px 1px
+     #621c10, 2px 1px 1px 
+     #79402d, 2px 3px 2px
+      #a20b0b, 3px 2px 2px 
+      #cd5d5d, 3px 4px 2px
+       #b44237, 4px 3px 3px;
+       color: rgb(163, 230, 207);}
+
+
+

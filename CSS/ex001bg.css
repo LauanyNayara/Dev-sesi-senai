@@ -1,0 +1,15 @@
+.imagem-fundo {
+    height: 1000px;
+    background-image: url(../IMG/matriz-musicdot-antiga.jpg);}
+
+.fundo {
+    background-color: aqua;}
+
+.familia {
+    height: 150px;
+    float: right;}
+
+.borda{
+    border-bottom: 2px solid black;}
+
+*{font-family:Arial, Helvetica, sans-serif; }

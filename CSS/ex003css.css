@@ -1,0 +1,43 @@
+body{background-color: rgb(226, 209, 187);}
+h1{color: rgb(151, 176, 200);}
+table{
+    height: 400px;
+    width: 400px;}   
+.tdazul{
+    background-color: rgb(11, 39, 225);
+    transition: 500ms;}
+.tdazul:hover {
+    background-color: rgb(103, 186, 225);
+    transition: 2s;}
+.tdamarelo{
+    background-color: rgb(182, 185, 8); 
+    transition: 500ms;}
+.tdamarelo:hover {
+    background-color: rgb(103, 186, 225);
+    transition: 2s;}
+.tdverde{
+    background-color: rgb(35, 158, 19); 
+    transition: 500ms;}
+.tdverde:hover {
+    background-color: rgb(103, 186, 225);
+    transition: 2s;}
+
+.tdvermelho{
+    background-color: rgba(158, 3, 3, 0.784); 
+    transition: 500ms;}
+.tdvermelho:hover {
+    background-color: rgb(103, 186, 225);
+    transition: 2s;}
+.tdrosa{
+    background-color:rgb(209, 15, 106);
+    transition: 500ms;}
+.tdrosa:hover {
+    background-color: rgb(103, 186, 225);
+    transition: 2s;}
+#tdpreto{
+    background-color:rgb(6, 5, 5); 
+    transition: 500ms;}
+#tdpreto:hover {
+    background-color: rgb(103, 186, 225);
+    transition: 2s;}
+
